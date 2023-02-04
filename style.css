@@ -1,0 +1,176 @@
+*{
+  background: #F3F5FC;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #0a3871;
+  height: 60px;
+}
+
+.logo {
+  width:70px;
+  margin: 10px;
+  background-color: #0a3871;
+}
+
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.seccion0{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text-area{
+  color: #0A3871;
+  margin-top: 25px;
+  text-transform: lowercase;
+  height: 280px;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+}
+
+::placeholder{ color: #0A3871;}
+  .text-area:focus{
+    outline: none;
+  }
+
+  .mensaje{
+    background: white;
+    background-image: url("IMAGENES/coso.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 20px;
+    height: 300px;
+    resize: none;
+  }
+
+  .mensaje:focus{
+    outline: none;
+  }
+
+  .botones{
+    display: flex;
+    justify-content: center;
+    }
+
+  .btn-encriptar{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    transition: 0.4s;
+  }
+
+  .btn-encriptar:hover{
+    opacity: 50%;
+    transform: scale(1.04);
+  }
+
+  .btn-desencriptar:hover{
+    opacity: 50%;
+    transform: scale(1.04);
+  }
+
+  .btn-desencriptar{
+    background: #D8DFE8;
+    transition: 0.4s;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    margin-left: 30px;
+  }
+
+  .copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 80px;
+    position: absolute;
+    width: 200px;
+    justify-content: center;
+    transition: 0.4s;
+    margin-top: 50px;
+  }
+
+  .copiar:hover{
+    opacity: 50%;
+    transform: scale(1.04);
+  }
+
+  .info{
+    height: 40px;
+    justify-content: center;
+  }
+
+  .informacion{
+    color: #495057;
+    font-size: 12px;
+  }
+
+section{
+  display: inline-grid;
+}
+
+@media screen and (max-width:650px){
+.seccion0{
+  display: block;
+}
+
+.seccion1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.seccion2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.mensaje{
+  margin-left: 0px;
+}
+
+.copiar{
+  margin-left: 0px;
+}
+
+.mens{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.copiar{
+  margin-top: 10px;
+}
+
+}
